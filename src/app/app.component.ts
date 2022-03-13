@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-website';
+  Pwa: any;
+  installPwa(): void {
+    this.Pwa.promptEvent.prompt();
+  }
 }
